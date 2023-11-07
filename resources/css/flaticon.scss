@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?1ecae0ffef52368e8f1c6bfee57e9b10") format("truetype"),
+url("./flaticon.woff?1ecae0ffef52368e8f1c6bfee57e9b10") format("woff"),
+url("./flaticon.woff2?1ecae0ffef52368e8f1c6bfee57e9b10") format("woff2"),
+url("./flaticon.eot?1ecae0ffef52368e8f1c6bfee57e9b10#iefix") format("embedded-opentype"),
+url("./flaticon.svg?1ecae0ffef52368e8f1c6bfee57e9b10#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "edit": "\f101",
+    "user-icon": "\f102",
+    "menu": "\f103",
+    "angle-arrow-down": "\f104",
+    "whatsapp": "\f105",
+    "instagram": "\f106",
+    "facebook-circular-logo": "\f107",
+    "trophy": "\f108",
+    "goal": "\f109",
+    "conference": "\f10a",
+    "diamond": "\f10b",
+    "twitter": "\f10c",
+    "line-logo": "\f10d",
+    "goal-1": "\f10e",
+    "problem-solving": "\f10f",
+    "trophy-1": "\f110",
+    "boss": "\f111",
+    "diamond-1": "\f112",
+    "email": "\f113",
+);
+
+.flaticon-edit:before {
+    content: map-get($flaticon-map, "edit");
+}
+.flaticon-user-icon:before {
+    content: map-get($flaticon-map, "user-icon");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-angle-arrow-down:before {
+    content: map-get($flaticon-map, "angle-arrow-down");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-facebook-circular-logo:before {
+    content: map-get($flaticon-map, "facebook-circular-logo");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon-map, "goal");
+}
+.flaticon-conference:before {
+    content: map-get($flaticon-map, "conference");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-line-logo:before {
+    content: map-get($flaticon-map, "line-logo");
+}
+.flaticon-goal-1:before {
+    content: map-get($flaticon-map, "goal-1");
+}
+.flaticon-problem-solving:before {
+    content: map-get($flaticon-map, "problem-solving");
+}
+.flaticon-trophy-1:before {
+    content: map-get($flaticon-map, "trophy-1");
+}
+.flaticon-boss:before {
+    content: map-get($flaticon-map, "boss");
+}
+.flaticon-diamond-1:before {
+    content: map-get($flaticon-map, "diamond-1");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
